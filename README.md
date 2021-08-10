@@ -1,4 +1,4 @@
-# Proa - HTML
+# HTML - Proa
 Atividades realizadas nas aulas de HTML do PROA.
 
 ## Pastas

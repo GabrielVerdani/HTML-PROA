@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Entrevista</title>
+</head>
+
+<body>
+    <form>
+        <table border="1" cellpadding="5" width="700">
+            <tr>
+                <td><label>Qual é o seu nome?</label></td>
+                <td><input type="text" name="nome" id="nome" placeholder="Digite seu nome" required></td>
+            </tr>
+            <tr>
+                <td><label>Quantos anos você tem?</label></td>
+                <td><input type="number" name="idade" id="idade" placeholder="Digite sua idade" required></td>
+            </tr>
+            <tr>
+                <td><label>Entre visitar por 1 segundo todo planeta no universo e conhecer 100% todos os planetas do
+                        sistema solar, qual você escolheria?</label></td>
+                <td>
+                    <input type="radio" name="escolha" id="conhecer">
+                    <label for="conhecer">Todo planeta do universo</label>
+                    <br>
+                    <input type="radio" name="escolha" id="presenciar">
+                    <label for="presenciar">Conhecer 100% do sistema solar</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Dessa lista, o que você levaria a uma ilha deserta?</label></td>
+                <td>
+                    <select name="ilha" id="ilha">
+                        <option value="0" selected disabled>Selecione uma opção</option>
+                        <option value="1">Celular sem internet ou sinal</option>
+                        <option value="2">Um livro de sua preferência</option>
+                        <option value="3">Equipamentos de sobrevivência</option>
+                        <option value="4">Uma luneta</option>
+                        <option value="5">Algum amigo ou familiar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Por que?</label></td>
+                <td><textarea name="justificativa" id="justificativa" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Indique o quão feliz você está com sua vida no momento</label></td>
+                <th><input type="range" name="feliz" id="feliz" min="0" max="10"></th>
+            </tr>
+            <tr>
+                <td><label>Me mostre a imagem mais importante que você tem salva</label></td>
+                <td>
+                    <input type="file" name="imagem" id="imagem">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Enviar respostas">
+    </form>
+</body>
+
+</html>

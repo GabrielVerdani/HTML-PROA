@@ -1,0 +1,14 @@
+bechdeltest.com - Análise 
+
+1) A função desse site é bem executada?
+- Na minha opinião ele realiza exatamente aquilo que é proposto, ele analisa as regras do teste bechdel. Não conheço 99% dos filmes no site pois não assisto tanto filme assim, mas dos que eu conheço aparenta realizar com sucesso o que lhe é proposto. Então sim, a função do site é bem executada.
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+- Encontrei Cruella, filme de 2021 onde a personagem principal é uma mulher, ela conversa com outras mulheres sobre assuntos não relacionados a homem. Esse filme cumpre as regras do teste bechdel e o site diz que passou no teste.
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+- Homem Aranha Longe de Casa é um filme que não passou no teste. Eu não me lembro de nenhum momento que duas mulheres conversam, eu não me lembro de nenhuma mulher além da MJ na real, então acredito que esteja correto.
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+- Primeiramente eu acho que o espaço não está sendo utilizado de forma eficiente, tem um espaço vazio bem grande na direita. Outra coisa é a quantidade de informação na lista sem uma forma de filtrar explícita, a ferramenta de busca está extremamente escondida. A escolha de cores não me agrada mas isso é mais pessoal. Eu acho que para a página inicial eles não deveriam mostrar todo esse conteúdo da lista logo de cara, e sim mostrar umas 20-30 no máximo, e um link levando à lista completa além de uma ferramenta de busca logo em cima. E na página com a lista completa, separar em colunas para ocupar melhor o espaço e não deixar um espaço em branco gigante.

@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    width: 700px;
+    margin: 25px auto;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(255, 81, 0);
+}
+
+.container {
+    background: rgb(255, 232, 189);
+    border: 2px solid rgb(255, 81, 0);
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.titulo {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.conteudo {
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+}

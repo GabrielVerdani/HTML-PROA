@@ -113,7 +113,8 @@ body {
 }
 
 .third .grid .grid-item {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px 1fr;
     align-items: center;
     text-align: start;
 }
@@ -172,9 +173,14 @@ body {
     padding: 10px;
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-@media (max-width: 800px) {
+#submit:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 1000px) {
     .first {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3fr;
@@ -186,18 +192,28 @@ body {
     }
 
     .second {
+        display: flex;
+        justify-content: center;
         font-size: 1.3rem;
         grid-template-columns: 1fr;
         padding: 20px 20px 60px 20px;
     }
 
+    .second div {
+        max-width: 400px;
+    }
+
     .third {
         padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .third .grid {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(1fr, 4);
+        max-width: 600px;
     }
 
     .big-number {
@@ -214,11 +230,12 @@ body {
         font-size: 1.5rem;
     }
 
-    .third h1{
+    .third h1 {
         font-size: 2rem;
     }
 
     .grid-item {
+        grid-template-columns: 1fr;
         text-align: center;
     }
 

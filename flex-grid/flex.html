@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #995bed;
+        }
+
+        .container {
+            width: 400px;
+            min-height: 90%;
+            background: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            color: #b1b1b1;
+            font-size: 1.5rem;
+            margin-bottom: 60px;
+        }
+
+        .gray-bar {
+            background: #ebebeb;
+            height: 30px;
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .bottom {
+            align-self: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .gray-ball {
+            background: #e3e3e3;
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            align-self: center;
+            margin-bottom: 10px;
+        }
+
+        .small-gray-bar {
+            background: #ebebeb;
+            height: 30px;
+            width: 120px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Company Logo</h1>
+
+            <div class="gray-bar"></div>
+            <div class="gray-bar"></div>
+            <div class="gray-bar"></div>
+            <div class="gray-bar"></div>
+        </div>
+        <div class="bottom">
+            <div class="gray-ball"></div>
+            <div class="small-gray-bar"></div>
+        </div>
+    </div>
+</body>
+
+</html>

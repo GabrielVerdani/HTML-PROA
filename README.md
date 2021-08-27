@@ -1,5 +1,5 @@
-# HTML - Proa
-Atividades realizadas nas aulas de HTML do PROA.
+# Interface - Proa
+Atividades realizadas nas aulas de Interface do PROA.
 
 - [Biografia](./sobre-mim/biografia) - Algumas informações sobre pessoas que eu admiro. Feito pra treinar o uso da tag table.
 - [Receitas](./sobre-mim/receitas) - Receitas de comidas que eu gosto ou tenho vontade de comer. Feito para treinar algumas tags básicas.
